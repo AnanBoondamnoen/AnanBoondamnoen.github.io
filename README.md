@@ -3,7 +3,7 @@
 
 # Biography
 
-![Picture](Anan.jpg)
+## ![Picture](Anan.jpg)
 
 <img src="Anan.jpg"
      alt="Markdown Monster icon"
