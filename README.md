@@ -1,9 +1,18 @@
 # AnanBoondamnoen.github.io
 
+![Nan_image](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Anan.JPG?raw=true)
 
+## Biography
 
-![Picture](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Anan.JPG?raw=true)
+**My name is Anan Boondamnoen. I graduated Bachelor of Engineering in Information Engineering from King Mongkut's Institute of Technology Ladkrabang. And now, I am studying Master of Science in Cybersecurity Engineering at Mahanakorn University. Now, I joined *[e-Cop (Thailand) Co., Ltd.](https://bcg-ecop.net/about-us)* as Security Analyst.**
 
-# Biography
+## certificate
+- **CompTIA Security+**
+- **CompTIA Cybersecurity Analyst (CySA+)**
 
-## Mr.Anan Boondamnoen received his B.S.degree in Information Engineering from King Mongkut's Institute of Technology Ladkrabang.
+## AKA
+**My friends call me as "นันท์ สะพานควาย"**
+
+## Contact Me
+[Facebook](https://web.facebook.com/nanziiiii/?viewas=100000686899395)
+[Gmail](nannziiiii@gmail.com)
