@@ -14,5 +14,4 @@
 **My friends call me as "นันท์ สะพานควาย"**
 
 ## Contact Me
-<p>[Facebook](https://web.facebook.com/nanziiiii/?viewas=100000686899395)<br>
-[Gmail](nannziiiii@gmail.com)</p>
+[Gmail](nannziiiii@gmail.com)
