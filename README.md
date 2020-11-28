@@ -1,6 +1,6 @@
 # AnanBoondamnoen.github.io
 
-![Nan_image](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Anan.JPG?raw=true)
+![Nan_image](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Anan.JPG?raw=true){:height="50%" width="50%"}
 
 ## Biography
 
