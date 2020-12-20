@@ -1,4 +1,4 @@
-# How to setting on two-factor authentication on Google
+# How to setting two-factor authentication on Google
 
 1. Go to link https://www.google.co.th/ and sign in your account.
 ![01](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Image/Google_two-factor_authentication/Setting/Setting_01.JPG)
