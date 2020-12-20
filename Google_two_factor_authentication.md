@@ -1,6 +1,6 @@
 ## How to Google two factor authentication
 1. Go to link https://www.google.co.th/ and choose Sign in, then enter your Email or Phone.
-![01](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_01.JPG)
+<img src="https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_01.JPG" width="1100" height="619" />
 
 2. Enter your passwords.
 ![02](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_02.JPG)
