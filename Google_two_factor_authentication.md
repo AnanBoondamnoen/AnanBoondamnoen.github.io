@@ -30,7 +30,7 @@
 10. Finally, click "TURN ON" button.
 ![10](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Image/Google_two-factor_authentication/Setting/Setting_10.JPG)
 
-
+---
 
 # How to sign in on Google two-factor authentication
 
@@ -55,7 +55,11 @@
 7. And Google will send email to your account for inform your two-factor authentication.
 ![07](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Image/Google_two-factor_authentication/Sign_In/Sign_In_07.JPG)
 
+---
 
 ### Members
 - Anan Boondamnoen
 - Soontorn Janphuk
+
+---
+---
