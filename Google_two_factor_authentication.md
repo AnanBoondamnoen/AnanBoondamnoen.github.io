@@ -22,7 +22,7 @@
 ![07](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Image/Google_two-factor_authentication/Setting/Setting_07.JPG)
 
 8. Open your message in your mobile and copy your Google verification code that you have received.
-![08](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Image/Google_two-factor_authentication/Setting/Setting_08.JPGstyle=centerme)
+![08](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Image/Google_two-factor_authentication/Setting/Setting_08.JPG style=centerme)
 
 9. Enter Google verification code and click "NEXT" button.
 ![09](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Image/Google_two-factor_authentication/Setting/Setting_09.JPG)
