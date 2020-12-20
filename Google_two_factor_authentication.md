@@ -1,21 +1,21 @@
 ## How to Google two factor authentication
 1. Go to link https://www.google.co.th/ and choose Sign in, then enter your Email or Phone.
-![01](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_01.JPG){:height="50%" width="50%"}
+![01](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_01.JPG = 1100*619)
 
 2. Enter your passwords.
-![02](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_02.JPG){:height="50%" width="50%"}
+![02](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_02.JPG = 1100*619)
 
 3. System will let you go to your device for two factor authentication.
-![03](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_03.JPG){:height="50%" width="50%"}
+![03](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_03.JPG = 1100*619)
 
 4. Go to your device and confirm whether I am true user, then press "Yes".
-![04](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_04.JPG){:height="50%" width="50%"}
+![04](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_04.JPG = 1100*619)
 
 5. Now, you can access your account.
-![05](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_05.JPG){:height="50%" width="50%"}
+![05](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_05.JPG = 1100*619)
 
 6. And Google will send email to your account for inform your two factor authentication.
-![06](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_06.JPG){:height="50%" width="50%"}
+![06](https://github.com/AnanBoondamnoen/AnanBoondamnoen.github.io/blob/main/Google%20Authentication/Google%20Authentication_06.JPG = 1100*619)
 
 ### Members
 - Anan Boondamnoen
