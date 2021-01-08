@@ -17,44 +17,44 @@ string.isalpha()
 text = "AnanBoondamnoen"
 print(text.isalpha())
 ```
-Output: `True`
+**Output: `True`**
 
 #### ตัวอย่างที่ 2 : อักขระทั้งหมดในสตริงเป็นตัวเลข
 ```
 text = "6317810009"
 print(text.isalpha())
 ```
-Output: `False`
+**Output: `False`**
 
 #### ตัวอย่างที่ 3 : อักขระในสตริงเป็นตัวอักษรผสมตัวเลข
 ```
 text = "Code4Sec"
 print(text.isalpha())
 ```
-Output: `False`
+**Output: `False`**
 
 #### ตัวอย่างที่ 4 : อักขระในสตริงเป็นสตริงว่าง
 ```
 text = ""
 print(text.isalpha())
 ```
-Output: `False`
+**Output: `False`**
 
 #### ตัวอย่างที่ 5 : อักขระในสตริงมีอักขระช่องว่าง (space)
 ```
 text = "Software Security"
 print(text.isalpha())
 ```
-Output: `False`
+**Output: `False`**
 
 #### ตัวอย่างที่ 6 : อักขระในสตริงเป็นอักขระ Unicode
 ```
 text = "çå"
 print(text.isalpha())
 ```
-Output: `True`
+**Output: `True`**
 
 ## References
-- https://www.dcrub.com/python-string-isalpha-method
-- https://www.journaldev.com/24026/python-string-isalpha#python-string-isalpha
-- https://wtmatter.com/python-string-isalpha/
+- [https://www.dcrub.com/python-string-isalpha-method](https://www.dcrub.com/python-string-isalpha-method)
+- [https://www.journaldev.com/24026/python-string-isalpha#python-string-isalpha](https://www.journaldev.com/24026/python-string-isalpha#python-string-isalpha)
+- [https://wtmatter.com/python-string-isalpha](https://wtmatter.com/python-string-isalpha)
