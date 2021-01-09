@@ -1,4 +1,4 @@
-![](Image/Code4Sec_Week/python_string_isalpha_01.png)
+![](Image/Code4Sec_Week/python_string_isalpha_1.png)
 
 # Python String isalpha()
 
