@@ -2,5 +2,6 @@ title: Software Security
 description: "#Code4Sec Week, #Day1  #NEIS0736 #NECS0736"
 show_downloads: true
 google_analytics:
-# theme: jekyll-theme-architect
+theme: jekyll-theme-architect
+# theme: jekyll-theme-hacker
 theme: jekyll-theme-midnight
