@@ -1,4 +1,4 @@
-![](Image/Code4Sec_Week/python_string_isalpha_1.png)
+![](Image/Code4Sec_Week/python_string_isalpha_01.png)
 
 # Python String isalpha()
 
@@ -55,7 +55,6 @@ print(text.isalpha())
 **Output: `True`**
 
 ## ทดสอบรันด้วยโปรแกรม Visual Studio Code
-<!-- ![](Image/Code4Sec_Week/Capture.PNG) -->
 ![](Image/Code4Sec_Week/python_string_isalpha_02.png)
 
 ## References
