@@ -54,6 +54,9 @@ print(text.isalpha())
 ```
 **Output: `True`**
 
+## ทดสอบรันด้วยโปรแกรม Visual Studio Code
+![](Image/Code4Sec_Week/python_string_isalpha_2.png)
+
 ## References
 - [https://www.dcrub.com/python-string-isalpha-method](https://www.dcrub.com/python-string-isalpha-method)
 - [https://www.journaldev.com/24026/python-string-isalpha#python-string-isalpha](https://www.journaldev.com/24026/python-string-isalpha#python-string-isalpha)
