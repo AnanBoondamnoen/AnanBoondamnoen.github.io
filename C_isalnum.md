@@ -47,7 +47,7 @@ int main()
     return 0;
 }
 ```
-**Output**
+**Output: **
 ```
 When 5 is passed, return value is 1
 When Q is passed, return value is 1
@@ -73,7 +73,7 @@ int main()
     return 0;
 }
 ```
-**Output**
+**Output: **
 ```
 Enter a character: 0
 0 is an alphanumeric character.
@@ -81,6 +81,7 @@ Enter a character: 0
 
 ## ทดสอบรันบน onlinegdb.com
 ![](Image/Code4Sec_Week/C_isalnum_02.png)
+
 ![](Image/Code4Sec_Week/C_isalnum_03.png)
 
 ## References
