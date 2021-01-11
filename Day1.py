@@ -1,3 +1,5 @@
+#Code4Sec Week, #Day1 #NEIS0736 #NECS0736
+
 text = "AnanBoondamnoen"
 print("AnanBoondamnoen : " + str(text.isalpha()))
 
