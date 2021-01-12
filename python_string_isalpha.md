@@ -57,7 +57,7 @@ print(text.isalpha())
 ## ทดสอบรันด้วยโปรแกรม Visual Studio Code
 ![](Image/Code4Sec_Week/python_string_isalpha_02.png)
 
-## References
+## Reference
 - [https://www.dcrub.com/python-string-isalpha-method](https://www.dcrub.com/python-string-isalpha-method)
 - [https://www.journaldev.com/24026/python-string-isalpha#python-string-isalpha](https://www.journaldev.com/24026/python-string-isalpha#python-string-isalpha)
 - [https://wtmatter.com/python-string-isalpha](https://wtmatter.com/python-string-isalpha/)
