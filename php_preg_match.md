@@ -1,4 +1,4 @@
-![](Image/Code4Sec_Week/php_preg_match_01.jpg)
+![](Image/Code4Sec_Week/php_preg_match_01.png)
 
 # PHP preg_match()
 
@@ -113,4 +113,3 @@ Array
 ## References
 - [https://www.php.net/manual/en/function.preg-match.php](https://www.php.net/manual/en/function.preg-match.php)
 - [https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/63-%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-php/512-preg_match.html](https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD/63-%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-php/512-preg_match.html)
-- [https://techsolexpert.wordpress.com/2018/05/07/preg_match-function-in-php](https://techsolexpert.wordpress.com/2018/05/07/preg_match-function-in-php)
