@@ -14,9 +14,9 @@ preg_match ( string $pattern , string $subject , array &$matches = null , int $f
 - $subject -> อินพุตสตริง
 - $matches -> ถ้ามีการ **matches** เกิดขึ้น มันจึงจะถูกเติมด้วยผลลัพธ์ของการค้นหา โดย `$matches[0]` จะบรรจุข้อความซึ่งตรงกันกับรูปแบบเต็ม และ `$matches[1]` จะมีข้อความซึ่งตรงกันกับรูปแบบย่อยในวงเล็บแรกซึ่งถูกจับได้
 - $flags -> **flags** สามารถเป็นการรวมกันของ flags ดังต่อไปนี้:
-    - **PREG_OFFSET_CAPTURE** -> ถ้าแฟล็กนี้ถูกส่ง สำหรับทุกๆการแมตช์ที่กำลังเกิดขึ้น ค่า appendant string offset (เป็นไบต์) จะถูกส่งคืนด้วย
-    - **PREG_UNMATCHED_AS_NULL** -> 
-- $offset -> Normally, the search starts from the beginning of the subject string. The optional parameter **offset** can be used to specify the alternate place from which to start the search (in bytes).
+    - **PREG_OFFSET_CAPTURE** -> ถ้าแฟล็กนี้ถูกส่ง สำหรับทุกๆการแมตช์ที่กำลังเกิดขึ้น ค่า appendant string offset (ในหน่วยไบต์) จะถูกส่งคืนด้วย
+    - **PREG_UNMATCHED_AS_NULL** -> ถ้าแฟล็กนี้ถูกส่ง รูปแบบย่อยซึ่งไม่ถูกแมตช์จะถูกรายงานว่าเป็น null มิฉะนั้นจะถูกรายงานว่าเป็นสตริงว่าง
+- $offset -> โดยปกติการค้นหาเริ่มจากจุดเริ่มต้นของสตริงหัวเรื่อง พารามิเตอร์ออฟเซ็ตที่เป็นทางเลือกสามารถถูกใช้เพื่อระบุตำแหน่งทางเลือกเพื่อเริ่มต้นการค้นหา (ในหน่วยไบต์)
 
 ## การคืนค่า
 ```
@@ -24,7 +24,7 @@ preg_match() returns 1 if the pattern matches given subject, 0 if it does not, o
 ```
 
 ## ตัวอย่างการใช้ `preg_match()`
-### ตัวอย่างที่ 1 : หาสตริงของข้อความ "php"
+### ตัวอย่างที่ 1: หาสตริงของข้อความ "php"
 ```
 <?php
 // The "i" after the pattern delimiter indicates a case-insensitive search
@@ -40,7 +40,7 @@ if (preg_match("/php/i", "PHP is the web scripting language of choice.")) {
 A match was found.
 ```
 
-### ตัวอย่างที่ 2 : หาคำว่า "web"
+### ตัวอย่างที่ 2: หาคำว่า "web"
 ```
 <?php
 /* The \b in the pattern indicates a word boundary, so only the distinct
@@ -63,7 +63,7 @@ if (preg_match("/\bweb\b/i", "PHP is the website scripting language of choice.")
 A match was found.A match was not found.
 ```
 
-### ตัวอย่างที่ 3 : 
+### ตัวอย่างที่ 3: การนำชื่อโดเมนออกจาก URL
 ```
 <?php
 // get host name from URL
@@ -81,7 +81,7 @@ echo "domain name is: {$matches[0]}\n";
 domain name is: php.net
 ```
 
-### ตัวอย่างที่ 4 : 
+### ตัวอย่างที่ 4: การใช้รูปแบบย่อยที่ถูกตั้งชื่อ
 ```
 <?php
 
