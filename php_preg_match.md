@@ -8,16 +8,15 @@
 ```
 preg_match ( string $pattern , string $subject , array &$matches = null , int $flags = 0 , int $offset = 0 ) : int|false
 ```
-Searches **subject** for a match to the regular expression given in **pattern**.
 
 ## Parameters
-- $pattern - The pattern to search for, as a string.
-- $subject - The input string.
-- $matches - If **matches** is provided, then it is filled with the results of search. `$matches[0]` will contain the text that matched the full pattern, `$matches[1]` will have the text that matched the first captured parenthesized subpattern, and so on.
-- $flags - **flags** can be a combination of the following flags:
-    - PREG_OFFSET_CAPTURE - 
-    - PREG_UNMATCHED_AS_NULL - 
-- $offset - Normally, the search starts from the beginning of the subject string. The optional parameter **offset** can be used to specify the alternate place from which to start the search (in bytes).
+- $pattern -> รูปแบบสตริงที่ใช้ในการค้นหา
+- $subject -> อินพุตสตริง
+- $matches -> ถ้ามีการ **matches** เกิดขึ้น มันจึงจะถูกเติมด้วยผลลัพธ์ของการค้นหา โดย `$matches[0]` จะบรรจุข้อความซึ่งตรงกันกับรูปแบบเต็ม และ `$matches[1]` จะมีข้อความซึ่งตรงกันกับรูปแบบย่อยในวงเล็บแรกซึ่งถูกจับได้
+- $flags -> **flags** สามารถเป็นการรวมกันของ flags ดังต่อไปนี้:
+    - **PREG_OFFSET_CAPTURE** -> ถ้าแฟล็กนี้ถูกส่ง สำหรับทุกๆการแมตช์ที่กำลังเกิดขึ้น ค่า appendant string offset (เป็นไบต์) จะถูกส่งคืนด้วย
+    - **PREG_UNMATCHED_AS_NULL** -> 
+- $offset -> Normally, the search starts from the beginning of the subject string. The optional parameter **offset** can be used to specify the alternate place from which to start the search (in bytes).
 
 ## การคืนค่า
 ```
