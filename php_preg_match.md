@@ -19,9 +19,9 @@ preg_match ( string $pattern , string $subject , array &$matches = null , int $f
 - $offset -> โดยปกติการค้นหาเริ่มจากจุดเริ่มต้นของสตริงหัวเรื่อง พารามิเตอร์ออฟเซ็ตที่เป็นทางเลือกสามารถถูกใช้เพื่อระบุตำแหน่งทางเลือกเพื่อเริ่มต้นการค้นหา (ในหน่วยไบต์)
 
 ## การคืนค่า
-```
-preg_match() returns 1 if the pattern matches given subject, 0 if it does not, or false if an error occurred.
-```
+- คืนค่า 1 ถ้า `$pattern` แมตช์กับ `$subject` ที่ให้มา
+- คืนค่า 0 ถ้า `$pattern` ไม่แมตช์กับ `$subject` ที่ให้มา
+- คืนค่า `false` ถ้าความผิดพลาดได้เกิดขึ้น
 
 ## ตัวอย่างการใช้ `preg_match()`
 ### ตัวอย่างที่ 1: หาสตริงของข้อความ "php"
