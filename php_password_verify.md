@@ -23,19 +23,31 @@ password_verify ( string $password , string $hash ) : bool
 ### ตัวอย่างที่ 1:
 ```
 <?php
-// See the password_hash() example to see where this came from.
-$hash = '$2y$07$BCryptRequires22Chrcte/VlQH0piJtjXl.0t1XkA8pw9dMXTpOq';
-
-if (password_verify('rasmuslerdorf', $hash)) {
-    echo 'Password is valid!';
+// $hash1 คือ แฮชของรหัสผ่าน(สตริงคำว่า 'Anan Boondamnoen')ของผู้ใช้งาน ซึ่งถูกสร้างโดยฟังก์ชัน password_hash()
+// $hash2 คือ แฮชของรหัสผ่าน(สตริงคำว่า '#Code4Sec Week, #Day4 #NEIS0736 #NECS0736')ของผู้ใช้งาน ซึ่งถูกสร้างโดยฟังก์ชัน password_hash()
+$hash1 = '$2y$10$qjIawLlyL8B1YbCmFwYLNOaWl337eTCV.1vFi4aRIJ/twZ6UjhRfm';
+$hash2 = '$2y$10$8LZL1jEClXbIkrxymZVFtu58wZpe76CaFKjrhORCbaJ8re37Ww3ha';
+if (password_verify('Anan Boondamnoen', $hash1)) {
+    // echo 'Password is valid!';
+    echo 'Password \'Anan Boondamnoen\' and $hash1 is match!';
 } else {
-    echo 'Invalid password.';
+    // echo 'Invalid password.';
+    echo 'Password \'Anan Boondamnoen\' and $hash1 is not match!';
+}
+echo "\n";
+if (password_verify('#Code4Sec Week, #Day4 #NEIS0736 #NECS0736', $hash2)) {
+    // echo 'Password is valid!';
+    echo 'Password \'#Code4Sec Week, #Day4 #NEIS0736 #NECS0736\' and $hash2 is match!';
+} else {
+    // echo 'Invalid password.';
+    echo 'Password \'#Code4Sec Week, #Day4 #NEIS0736 #NECS0736\' and $hash2 is not match!';
 }
 ?>
 ```
 **Output: **
 ```
-Password is valid!
+Password 'Anan Boondamnoen' and $hash1 is match!                                                                                                     
+Password '#Code4Sec Week, #Day4 #NEIS0736 #NECS0736' and $hash2 is match!
 ```
 
 ## Reference
