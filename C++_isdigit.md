@@ -57,6 +57,14 @@ int main()
     return 0;
 }
 ```
+**Output: **
+```
+"AnanBoondamnoen" is not isdigit()
+"6317810009" is isdigit()
+"Code4Sec" is not isdigit()
+"63178 10009" is not isdigit()
+"çå" is not isdigit()
+```
 
 ### ตัวอย่างที่ 2: ตรวจสอบว่าในสตริงมีอักขระตัวเลขอะไรบ้าง
 ```
@@ -79,6 +87,11 @@ int main()
 
     return 0;
 }
+```
+**Output: **
+```
+The digit in the string are:
+6 3 1 7 8 1 0 0 0 9 4
 ```
 
 ## Reference
