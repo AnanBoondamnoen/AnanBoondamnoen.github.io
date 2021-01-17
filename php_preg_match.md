@@ -24,11 +24,11 @@ preg_match ( string $pattern , string $subject , array &$matches = null , int $f
 - คืนค่า **false** ถ้าความผิดพลาดได้เกิดขึ้น
 
 ## ตัวอย่างการใช้งานฟังก์ชัน `preg_match()`
-### ตัวอย่างที่ 1: หาสตริงของข้อความ "php"
+### ตัวอย่างที่ 1: หาสตริงของข้อความ "#Code4Sec"
 ```
 <?php
 // The "i" after the pattern delimiter indicates a case-insensitive search
-if (preg_match("/php/i", "PHP is the web scripting language of choice.")) {
+if (preg_match("/#Code4Sec/i", "AnanBoondamnoen #Code4Sec Week, #Day3 #NEIS0736 #NECS0736")) {
     echo "A match was found.";
 } else {
     echo "A match was not found.";
@@ -40,18 +40,18 @@ if (preg_match("/php/i", "PHP is the web scripting language of choice.")) {
 A match was found.
 ```
 
-### ตัวอย่างที่ 2: หาคำว่า "web"
+### ตัวอย่างที่ 2: หาคำว่า "Anan"
 ```
 <?php
 /* The \b in the pattern indicates a word boundary, so only the distinct
- * word "web" is matched, and not a word partial like "webbing" or "cobweb" */
-if (preg_match("/\bweb\b/i", "PHP is the web scripting language of choice.")) {
+ * word "Anan" is matched, and not a word partial like "AnanBoondamnoen" */
+if (preg_match("/\bAnan\b/i", "Anan Code4Sec Week, #Day3 #NEIS0736 #NECS0736")) {
     echo "A match was found.";
 } else {
     echo "A match was not found.";
 }
-
-if (preg_match("/\bweb\b/i", "PHP is the website scripting language of choice.")) {
+echo "\n";
+if (preg_match("/\bAnan\b/i", "AnanBoondamnoen Code4Sec Week, #Day3 #NEIS0736 #NECS0736.")) {
     echo "A match was found.";
 } else {
     echo "A match was not found.";
@@ -60,52 +60,47 @@ if (preg_match("/\bweb\b/i", "PHP is the website scripting language of choice.")
 ```
 **Output: **
 ```
-A match was found.A match was not found.
+A match was found.
+A match was not found.
 ```
 
 ### ตัวอย่างที่ 3: การนำชื่อโดเมนออกจาก URL
 ```
 <?php
-// get host name from URL
+// get hostname from URL
 preg_match('@^(?:http://)?([^/]+)@i',
-    "http://www.php.net/index.html", $matches);
+    "http://msit.mut.ac.th", $matches);
 $host = $matches[1];
 
-// get last two segments of host name
-preg_match('/[^.]+\.[^.]+$/', $host, $matches);
+// get last two segments of hostname
+preg_match('/[^.]+\.[^.]+\.[^.]+$/', $host, $matches);
 echo "domain name is: {$matches[0]}\n";
 ?>
 ```
 **Output: **
 ```
-domain name is: php.net
+domain name is: mut.ac.th
 ```
 
 ### ตัวอย่างที่ 4: การใช้รูปแบบย่อยที่ถูกตั้งชื่อ
 ```
 <?php
-
-$str = 'foobar: 2008';
-
-preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
-
+$str = 'AnanBoondamnoen: 6317810009';
 /* This also works in PHP 5.2.2 (PCRE 7.0) and later, however 
  * the above form is recommended for backwards compatibility */
-// preg_match('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);
-
+preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
 print_r($matches);
-
 ?>
 ```
 **Output: **
 ```
 Array
 (
-    [0] => foobar: 2008
-    [name] => foobar
-    [1] => foobar
-    [digit] => 2008
-    [2] => 2008
+    [0] => AnanBoondamnoen: 6317810009
+    [name] => AnanBoondamnoen
+    [1] => AnanBoondamnoen
+    [digit] => 6317810009
+    [2] => 6317810009
 )
 ```
 
