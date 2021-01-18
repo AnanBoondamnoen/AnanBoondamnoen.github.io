@@ -28,19 +28,39 @@ int main()
     char c;
     int result;
 
-    c = '5';
+    c = '#';
     result = isalnum(c);
     printf("When %c is passed, return value is %d\n", c, result);
 
-    c = 'Q';
+    c = 'C';
     result = isalnum(c);
     printf("When %c is passed, return value is %d\n", c, result);
 
-    c = 'l';
+    c = 'o';
     result = isalnum(c);
     printf("When %c is passed, return value is %d\n", c, result);
 
-    c = '+';
+    c = 'd';
+    result = isalnum(c);
+    printf("When %c is passed, return value is %d\n", c, result);
+    
+    c = 'e';
+    result = isalnum(c);
+    printf("When %c is passed, return value is %d\n", c, result);
+    
+    c = '4';
+    result = isalnum(c);
+    printf("When %c is passed, return value is %d\n", c, result);
+    
+    c = 'S';
+    result = isalnum(c);
+    printf("When %c is passed, return value is %d\n", c, result);
+    
+    c = 'e';
+    result = isalnum(c);
+    printf("When %c is passed, return value is %d\n", c, result);
+    
+    c = 'c';
     result = isalnum(c);
     printf("When %c is passed, return value is %d\n", c, result);
 
@@ -49,10 +69,15 @@ int main()
 ```
 **Output: **
 ```
-When 5 is passed, return value is 1
-When Q is passed, return value is 1
-When l is passed, return value is 1
-When + is passed, return value is 0
+When # is passed, return value is 0
+When C is passed, return value is 1
+When o is passed, return value is 1
+When d is passed, return value is 1
+When e is passed, return value is 1
+When 4 is passed, return value is 1
+When S is passed, return value is 1
+When e is passed, return value is 1
+When c is passed, return value is 1
 ```
 
 ### ตัวอย่างที่ 2: ตรวจสอบว่าอักขระเป็นอักขระตัวอักษรหรืออักขระตัวเลขหรือไม่
@@ -78,11 +103,6 @@ int main()
 Enter a character: 0
 0 is an alphanumeric character.
 ```
-
-## ทดสอบรันบน onlinegdb.com
-![](Image/Code4Sec_Week/C_isalnum_02.png)
-
-![](Image/Code4Sec_Week/C_isalnum_03.png)
 
 ## Reference
 - [https://www.programiz.com/c-programming/library-function/ctype.h/isalnum](https://www.programiz.com/c-programming/library-function/ctype.h/isalnum)
